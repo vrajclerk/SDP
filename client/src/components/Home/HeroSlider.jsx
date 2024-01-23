@@ -1,6 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination, Navigation } from "swiper";
+// import { Autoplay, Pagination, Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -23,8 +23,8 @@ function HeroSlider() {
     },
   ]
   return (
-    <div className='px-2 py-2'>
-      <Swiper
+    <div >
+      {/* <Swiper
         spaceBetween={30}
         centeredSlides={true}
         loop={true}
@@ -43,7 +43,7 @@ function HeroSlider() {
             <HeroSliderCard title={data.title} img={data.img} />
           </SwiperSlide>
         ))}
-      </Swiper>
+      </Swiper> */}
     </div>
   )
 }
