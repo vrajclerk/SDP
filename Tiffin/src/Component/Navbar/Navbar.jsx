@@ -1,14 +1,14 @@
 import React from 'react'
 import {useSelector} from 'react-redux'
 import {Link} from 'react-router-dom' 
-import Logo from '../../assets/buddy2.png'
+import NavbarMenu from './NavbarMenu'
 
 function NavbarLg({ name }) {
     return (
       <>
         <div className='w-full md:flex hidden justify-between shadow items-center py-3 lg:px-16 md:px-12 sm:px-8 px-2'>
           <Link to="/" className='flex gap-1.5 items-center'>
-            <img src={Logo} className='h-[70px] object-contain' alt="" />
+            <img src='src/assets/buddy2.png' className='h-[70px] object-contain' alt="" />
             <h1 className='font-bold text-xl font-mono'>Buddy</h1>
           </Link>
           <ul className='gap-4 flex items-center font-semibold '>
@@ -25,7 +25,7 @@ function NavbarLg({ name }) {
       <>
         <div className='flex md:hidden px-4 py-2 shadow justify-between'>
           <Link to="/" className='flex items-center'>
-            <img src={logo} className='h-[50px] object-contain' alt="" />
+            <img src='src/assets/buddy2.png className='h-[50px] object-contain' alt="" /{'>'}
             <h1 className='font-bold text-xl font-mono'>Tiffin Wala</h1>
           </Link>
           <div className='flex items-center gap-3'>
@@ -45,7 +45,4 @@ function NavbarLg({ name }) {
     )
   }
   
-  
-  
-
 export default Navbar
