@@ -25,7 +25,7 @@ function NavbarLg({ name }) {
       <>
         <div className='flex md:hidden px-4 py-2 shadow justify-between'>
           <Link to="/" className='flex items-center'>
-            <img src='src/assets/buddy2.png className='h-[50px] object-contain' alt="" /{'>'}
+            <img src='../src/assets/buddy2.png' className='h-[50px] object-contain' alt=""/>
             <h1 className='font-bold text-xl font-mono'>Tiffin Wala</h1>
           </Link>
           <div className='flex items-center gap-3'>

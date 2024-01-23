@@ -26,7 +26,7 @@ function Footer() {
         <ul className='pb-3 '>
           <h1 className='font-bold text-2xl py-2 '>Links</h1>
           <Link to="/"><li className='pl-2 font-medium cursor-pointer hover:text-blue-700'>Home</li></Link>
-          <Link to="/"><li className='pl-2 font-medium cursor-pointer  hover:text-blue-700'> </li></Link>
+          <Link to="/"><li className='pl-2 font-medium cursor-pointer  hover:text-blue-700'> Tiffin Providers</li></Link>
           <Link to="/"><li className='pl-2 font-medium cursor-pointer  hover:text-blue-700'></li></Link>
           <Link to="/"><li className='pl-2 font-medium cursor-pointer  hover:text-blue-700'></li></Link>
         </ul>
