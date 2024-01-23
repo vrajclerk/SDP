@@ -1,10 +1,11 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
-import {  Pagination, Navigation } from "swiper";
+import { Autoplay, Pagination, Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import HeroSliderCard from './HeroSliderCard';
+import { formGroupClasses } from '@mui/material';
 
 function HeroSlider() {
   const slidesData = [
